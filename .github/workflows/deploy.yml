@@ -20,5 +20,4 @@ jobs:
         env:
           SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
           SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
-          SUPABASE_PROJECT_ID: TU_REFERENCE_ID  echo Add other actions to build,
-          echo test, and deploy your project.
+          SUPABASE_PROJECT_ID: tgobejstwkpjqhllqdkj
