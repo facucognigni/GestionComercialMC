@@ -16,7 +16,7 @@ jobs:
           version: latest
 
       - name: Deploy migrations
-        run: supabase db push --method linked
+        run: supabase db push --linked
         env:
           SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
           SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
